@@ -6,7 +6,7 @@ config:
       name: "Phase 1"
   defaults:
     headers:
-      Authorization: Bearer e0b5b881f88ee7f6a2ad67ad0b8b79ca5b1ba897 ##{{ $processEnvironment.TOKEN }}
+      Authorization: Bearer {{ $processEnvironment.TOKEN }}
       content-type: application/json
 scenarios:
   - flow:
