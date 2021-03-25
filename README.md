@@ -12,7 +12,7 @@ Qa automation certification challenge
 Add your api key to the environment
 
 ```bash
- export TOKEN='{yourTokenHere}
+ export TOKEN='{yourTokenHere}'
 ```
 
 ## Usage
